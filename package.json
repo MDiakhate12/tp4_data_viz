@@ -1,5 +1,26 @@
 {
   "dependencies": {
-    "d3": "^7.2.1"
-  }
+    "d3": "^7.2.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  },
+  "name": "tp4_data_viz",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MDiakhate12/tp4_data_viz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MDiakhate12/tp4_data_viz/issues"
+  },
+  "homepage": "https://github.com/MDiakhate12/tp4_data_viz#readme",
+  "description": ""
 }
